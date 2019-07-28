@@ -1,0 +1,1 @@
+export { setPosterImg } from "./setPosterImg";
