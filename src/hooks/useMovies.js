@@ -5,6 +5,7 @@ import * as queryString from "query-string";
 
 const useMovies = onError => {
   const [movies, setMovies] = useState([]);
+
   const [isLoading, setLoaderStatus] = useState(false);
 
   const queryParams = queryString.parse(window.location.search);
